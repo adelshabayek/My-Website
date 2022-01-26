@@ -115,3 +115,21 @@ document.addEventListener("DOMContentLoaded", function() {
 	  loop: true
 	});
   });
+
+
+  
+/* --------------------------------------------------
+	progresses
+-------------------------------------------------- */
+
+let section = document.querySelector(".six");
+let spans = document.querySelectorAll(".progress div");
+
+window.onscroll = function () {
+	if (window.scrollY >= section.offsetTop + 300) {
+		
+		spans.forEach((div) => {
+			div.style.width = div.dataset.width;
+		});
+	}
+};
