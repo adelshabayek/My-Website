@@ -530,7 +530,7 @@ body.sub-page .header-text {
 }
 
 .box-content.box-1 .ft-b-image img {
-  border-radius: 50%;
+  border-radius: 25%;
   position: relative;
   bottom: 40px;
   max-width: 200px;
