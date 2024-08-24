@@ -1,0 +1,18 @@
+.btn-cv {
+    font-size: 12px !important;
+    margin: 0 !important;
+}
+
+@media (max-width: 991px) {
+    .about-social {
+        text-align: center;
+    }
+    .btn-cv {
+        margin-top: 15px !important;
+    }
+    
+  }
+
+  .box-3 {
+    padding-top: 30px !important;
+  }
